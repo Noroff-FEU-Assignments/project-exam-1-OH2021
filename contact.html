@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact-style.css">
+    <title>Contact | Blog of Foods</title>
+</head>
+<body>
+    <div class="menu-container">
+        <nav class="nav-buttons">
+            <a href="index.html" class="website-buttons">Home</a>
+            <a href="blogs.html" class="website-buttons">Blogs</a>
+            <a href="about.html" class="website-buttons">About</a>
+            <a href="contact.html" class="active-button">Contact</a>
+        </nav>
+    </div>
+
+    <h1>Contact Us</h1>
+
+    <div id="success-message" style="display: none;">Form submitted successfully!</div>
+
+<form id="contactForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+
+    <label for="email">Email address:</label>
+    <input type="text" id="email" name="email">
+
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" name="subject">
+
+    <label for="message">Message content:</label>
+    <input type="text" id="message" name="message">
+
+    <button type="button" onclick="validateForm()">Submit</button>
+</form>
+
+<script src="js/contact-script.js"></script>
+
+</body>
+</html>
