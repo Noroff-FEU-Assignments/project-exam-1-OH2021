@@ -44,6 +44,18 @@ document.addEventListener('DOMContentLoaded', function () {
                 <div>${post.content.rendered}</div>
             `;
             postContainer.appendChild(postElement);
+
+            // Adjust image sizes to be responsive
+            const images = postElement.querySelectorAll('img');
+            images.forEach(image => {
+                image.style.maxWidth = '100%';
+                image.style.height = 'auto';
+
+                // Scale down image size for screens <= 768px
+                if (window.innerWidth <= 768) {
+                    image.style.width = '33.33%';
+                }
+            });
         });
     }
 

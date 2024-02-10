@@ -15,6 +15,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
             const images = blogPostContent.querySelectorAll('img');
             images.forEach(img => {
+                img.style.maxWidth = '100%';
+                img.style.height = 'auto';
+
+                // Scale down image size for screens <= 768px
+                if (window.innerWidth <= 768) {
+                    img.style.width = '33.33%';
+                }
+
                 img.addEventListener('click', function () {
                     const modal = document.createElement('div');
                     modal.classList.add('modal');
