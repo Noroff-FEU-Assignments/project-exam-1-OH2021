@@ -16,25 +16,29 @@
         </nav>
     </div>
 
-    <h1>Contact Us</h1>
+    <h1 class="header">Contact Us</h1>
 
-    <div id="success-message" style="display: none;">Form submitted successfully!</div>
+    <div id="success-message" style="display: none;">Success!</div>
 
-<form id="contactForm">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name">
+    <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject"><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4"></textarea><br>
+        
+        <button type="submit" id="submit-button">Submit</button>
+    </form>
 
-    <label for="email">Email address:</label>
-    <input type="text" id="email" name="email">
-
-    <label for="subject">Subject:</label>
-    <input type="text" id="subject" name="subject">
-
-    <label for="message">Message content:</label>
-    <input type="text" id="message" name="message">
-
-    <button type="button" onclick="validateForm()">Submit</button>
-</form>
+    <div id="success-message" style="display: none;">
+        Your message has been sent successfully!
+    </div>
 
 <script src="js/contact-script.js"></script>
 
