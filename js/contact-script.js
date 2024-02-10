@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
     const submitButton = document.getElementById('submit-button');
     submitButton.addEventListener('click', function(event) {
-        event.preventDefault(); // Prevent form submission by default
-        validateForm(); // Validate form input
+        event.preventDefault();
+        validateForm();
     });
 });
 
@@ -37,7 +37,6 @@ function validateForm() {
     }
 
     if (isValid) {
-        // If all fields are valid, show success message
         const successMessage = document.getElementById('success-message');
         successMessage.style.display = 'block';
     }
@@ -59,7 +58,6 @@ function clearErrors() {
     const errorElements = document.querySelectorAll('.error');
     errorElements.forEach(element => element.remove());
 
-    // Hide success message when clearing errors
     const successMessage = document.getElementById('success-message');
     successMessage.style.display = 'none';
 }

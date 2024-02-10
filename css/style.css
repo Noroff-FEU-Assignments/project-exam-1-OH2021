@@ -18,7 +18,7 @@ body {
     color: #333;
     margin-top: 100px;
     margin-bottom: 20px;
-    margin-right: 490px;
+    margin-right: 490px; /* Desktop margin */
 }
 
 .about-header {
@@ -59,7 +59,8 @@ body {
 #latest-posts {
     width: 35%;
     max-width: 800px;
-    margin: 50px auto 20px;
+    margin: auto;
+    margin-top: 50px;
     padding: 20px;
 }
 
@@ -192,29 +193,13 @@ body {
     transform: scale(1.05);
 }
 
-
-
-#next-button {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-#next-button:hover {
-    background-color: #777;
-}
-
 /* Responsive Adjustments */
 @media screen and (max-width: 768px) {
-    .header {
-        margin-right: 5%;
-    }
-
+    .header,
     .about-header {
-        margin-right: 5%;;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
     }
 
     .nav-buttons {
@@ -222,12 +207,23 @@ body {
         align-items: center;
     }
 
+    .nav-button {
+        margin: 5px;
+    }
+
     #latest-posts {
-        width: 100%;
-        max-width: 100%;
+        margin-top: 20px;
     }
 
     .swiper-slide {
         padding: 5px;
+    }
+
+    .header {
+        margin-right: 5%;
+    }
+
+    .latest-post-header {
+        margin-right: center;
     }
 }
