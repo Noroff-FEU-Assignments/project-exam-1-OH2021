@@ -18,9 +18,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 img.style.maxWidth = '100%';
                 img.style.height = 'auto';
 
-                // Scale down image size for screens <= 768px
                 if (window.innerWidth <= 768) {
-                    img.style.width = '33.33%';
+                    img.style.width = '45%';
                 }
 
                 img.addEventListener('click', function () {
