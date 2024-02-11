@@ -98,4 +98,12 @@ button {
     form {
         max-width: 80%;
     }
+
+    .website-buttons {
+        padding: 20px 35px;
+    }
+
+    .active-button {
+        padding: 20px 35px;
+    }
 }
