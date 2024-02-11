@@ -59,7 +59,7 @@ button {
 
 .website-buttons, .active-button {
     display: inline-block;
-    padding: 10px;
+    padding: 10px 20px; /* Adjust padding as needed */
     text-decoration: none;
     color: white;
     border: 1px solid #333;
@@ -72,10 +72,9 @@ button {
 }
 
 .active-button {
-    background-color: #555;
-    border: 1px solid #555;
+    background-color: #777; /* Adjust color as needed */
+    border: 1px solid #777; /* Adjust color as needed */
 }
-
 
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
@@ -98,12 +97,4 @@ button {
     form {
         max-width: 80%;
     }
-
-    .website-buttons {
-        padding: 20px 35px;
-    }
-
-    .active-button {
-        padding: 20px 35px;
-    }
-}
+} 
