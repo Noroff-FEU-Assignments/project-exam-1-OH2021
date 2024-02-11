@@ -96,6 +96,11 @@ button {
 
     form {
         max-width: 80%;
+        margin-bottom: 0px; /* Adjust margin-bottom for the form */
+    }
+
+    .buttons-container {
+        margin-top: 150px; /* Adjust the margin-top value for the buttons container */
     }
 
     .website-buttons, .active-button {
