@@ -59,7 +59,7 @@ button {
 
 .website-buttons, .active-button {
     display: inline-block;
-    padding: 10px 20px; /* Adjust padding as needed */
+    padding: 10px 20px;
     text-decoration: none;
     color: white;
     border: 1px solid #333;
@@ -72,8 +72,8 @@ button {
 }
 
 .active-button {
-    background-color: #777; /* Adjust color as needed */
-    border: 1px solid #777; /* Adjust color as needed */
+    background-color: #777;
+    border: 1px solid #777;
 }
 
 /* Responsive Styles */
@@ -96,16 +96,16 @@ button {
 
     form {
         max-width: 80%;
-        margin-bottom: 0px; /* Adjust margin-bottom for the form */
+        margin-bottom: 0px;
     }
 
     .buttons-container {
-        margin-top: 150px; /* Adjust the margin-top value for the buttons container */
+        margin-top: 150px;
     }
 
     .website-buttons, .active-button {
         display: inline-block;
-        padding: 15px 30px; /* Increase padding for bigger buttons */
+        padding: 20px 35px;
         text-decoration: none;
         background-color: #333;
         color: white;
