@@ -18,10 +18,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 img.style.maxWidth = '100%';
                 img.style.height = 'auto';
 
-                if (window.innerWidth <= 768) {
-                    img.style.width = '45%';
-                }
-
                 img.addEventListener('click', function () {
                     const modal = document.createElement('div');
                     modal.classList.add('modal');

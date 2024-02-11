@@ -49,10 +49,6 @@ document.addEventListener('DOMContentLoaded', function () {
             images.forEach(image => {
                 image.style.maxWidth = '100%';
                 image.style.height = 'auto';
-
-                if (window.innerWidth <= 768) {
-                    image.style.width = '45%';
-                }
             });
         });
     }
