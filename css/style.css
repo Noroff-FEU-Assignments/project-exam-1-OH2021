@@ -69,6 +69,10 @@ body {
     padding: 10px;
 }
 
+.swiper-container {
+    overflow-x: hidden;
+}
+
 .post-content {
     display: flex;
     flex-direction: column;
@@ -220,5 +224,15 @@ body {
 
     .latest-post-header {
         margin-right: center;
+    }
+
+    #blog-post-content,
+    #post-container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .swiper-container {
+        overflow-x: hidden;
     }
 }
