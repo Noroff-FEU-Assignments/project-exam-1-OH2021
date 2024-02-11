@@ -235,4 +235,12 @@ body {
     .swiper-container {
         overflow-x: hidden;
     }
+
+    .website-buttons {
+        padding: 15px 30px;
+    }
+
+    .active-button {
+        padding: 15px 30px;
+    }
 }
