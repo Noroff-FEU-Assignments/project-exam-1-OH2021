@@ -1,6 +1,7 @@
-# Your project title
+# Project Exam 1
 
 ![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![project-exam-1](https://github.com/Noroff-FEU-Assignments/project-exam-1-OH2021/assets/77490624/45d0a4ad-5a68-4ea7-a0e7-8ad47f1f2049)
 
 A simple overview of the use/purpose of the project.
 
