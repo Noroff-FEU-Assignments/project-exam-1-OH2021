@@ -4,7 +4,7 @@
 
 ## Description
 
-This is a blog website that I've made where I've used WordPress to store the content and fetched it with javascript making a call to the WordPress API. It has 14 blog posts and you can easily scroll through the last 10 blog posts on the home page and click on each of them that takes you to that spesific blog post. You can find all 14 blog posts when clicking on "blogs" to navigate to a page with every blog post made. You then have a about page that provide with some information about this blog website and of course a contact page where you can type in your name, email, subject and message.
+This is a blog website that I've made where I've used WordPress to store the content and fetched it with JavaScript making a call to the WordPress API. It has 14 blog posts and you can easily scroll through the last 10 blog posts on the home page and click on each of them that takes you to that spesific blog post. You can find all 14 blog posts when clicking on "blogs" to navigate to a page with every blog post made. You then have a about page that provide with some information about this blog website and of course a contact page where you can type in your name, email, subject and message.
 
 ## Built With
 
