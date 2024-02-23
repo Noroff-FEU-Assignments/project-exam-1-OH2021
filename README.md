@@ -4,31 +4,24 @@
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
-
-You can add some bullet points if you'd like to:
-
-- List item 1
-- List item 2
-- List item 3
+This is a blog website that I've made where I've used WordPress to store the content and fetched it with javascript making a call to the WordPress API. It has 14 blog posts and you can easily scroll through the last 10 blog posts on the home page and click on each of them that takes you to that spesific blog post. You can find all 14 blog posts when clicking on "blogs" to navigate to a page with every blog post made. You then have a about page that provide with some information about this blog website and of course a contact page where you can type in your name, email, subject and message.
 
 ## Built With
 
-You can list a the tech stack that you've used over here
-
-- [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
+- HTML
+- CSS
+- JavaScript
+- WordPress
+- VS Code
 
 ## Getting Started
 
 ### Installing
 
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
-
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
+git clone https://github.com/Noroff-FEU-Assignments/project-exam-1-OH2021.git
 ```
 
 2. Install the dependencies:
@@ -55,14 +48,7 @@ Here you can detail any information you want to provide regarding contributing t
 
 This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
 
-[My Twitter page](www.twitter.com)
+[My Twitter page](https://twitter.com/OhHaug)
 
-[My LinkedIn page](www.linkedin.com)
+[My LinkedIn page](https://www.linkedin.com/in/ole-henrik-haug-250766296/)
 
-## License
-
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
-
-## Acknowledgments
-
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
